@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/d4408de37a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <title>Rock Paper Scissors Game</title>
+</head>
+
+<body>
+
+    <header class="text-dark d-flex align-items-center justify-content-center">
+        <h1 class="font-weight-bold text-light pt-2">Rock Paper Scissors</h1>
+    </header>
+
+    <main class="text-light d-flex flex-column justify-content-center align-items-center mt-3 container">
+        <section class="scoreboard position-relative d-flex align-items-center justify-content-center">
+            <span id="user-span" class="badge bg-danger user_span position-absolute">user</span>
+            <span id="comp-span" class="badge bg-danger comp_span position-absolute">comp</span>
+            <div id="user_score">0</div>:<div id="comp_score">0</div>
+        </section>
+
+
+        <section class="mt-3 result" id="result">Let's try it!</section>
+
+        <section class="d-flex justify-space-between w-100 mt-2">
+            <section class="header_hand col-6 text-center">USER </section>
+            <section class=" header_hand col-6 text-center">COMP</section>
+        </section>
+        <section id="moves" class="moves_outside d-flex justify-content-between align-items-center">
+            <article class="moves_left" id="moves_left">
+                <div id="rock" class="rock1"><a onsubmit="return false" href="#"><i
+                            class="far fa-hand-rock fa-4x"></i></a></div>
+                <div id="paper" class="paper1"><a onsubmit="return false" href="#"><i
+                            class="far fa-hand-paper fa-4x"></i></a></div>
+                <div id="scissors" class="scissors1"><a onsubmit="return false" href="#"><i
+                            class="far fa-hand-scissors fa-4x"></i></a></div>
+            </article>
+            <article class="moves_right">
+                <div id="rock" class="moves_el"><a class="move" onsubmit="return false" href="#"><i
+                            class="far fa-hand-rock fa-4x"></i></a></div>
+                <div id="paper" class="moves_el"><a class="move" onsubmit="return false" href="#"><i
+                            class="far fa-hand-paper fa-4x"></i></a></div>
+                <div id="scissors" class="moves_el"><a class="move" onsubmit="return false" href="#"><i
+                            class="far fa-hand-scissors fa-4x"></i></a></div>
+            </article>
+
+        </section>
+    </main>
+
+    
+
+
+    <button id="restart" class="restart position-absolute">RESTART</button>
+
+
+    <footer>
+
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

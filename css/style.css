@@ -1,0 +1,147 @@
+body {
+  font-family: "Asap", sans-serif !important;
+  min-height: 100vh;
+  position: relative;
+  background-color: #393e46 !important;
+
+}
+
+header {
+  background-color:#000;
+  height: 3.5rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgb(236, 223, 225);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(220, 53, 69, 1);
+  box-shadow: 0px 3px 5px 0px rgba(220, 53, 69, 1);
+}
+
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.scoreboard {
+  border: 2px solid rgba(238, 238, 238, 0.63);
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+h1{
+  font-size: 2rem !important;
+  
+}
+
+.user_span {
+  top: 35px;
+  left: -25px;
+  font-size: 0.9rem !important;
+  padding: 0.4rem !important;
+}
+
+.comp_span {
+  top: 35px;
+  right: -27px;
+  font-size: 0.9rem !important;
+  padding: 0.4rem !important;
+}
+
+#comp_score {
+  margin-left: 10px;
+}
+
+#user_score {
+  margin-right: 10px;
+}
+
+.result {
+  font-size: 2rem;
+}
+
+.moves_outside {
+  width: 58%;
+  height: 20rem;
+}
+
+.far {
+  padding: 10px;
+}
+
+#paper,
+#rock,
+#scissors {
+  background-color: rgba(0, 0, 0, 0.411);
+  border-radius: 50%;
+  border: 1px solid #f3b0b04d;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+i {
+  color: #dc3545;
+}
+
+.paper1:hover,
+.rock1:hover,
+.scissors1:hover {
+  border: none;
+  transform: scale(1.1);
+  -webkit-box-shadow: -1px 0px 16px -1px rgba(7, 255, 131, 1);
+  -moz-box-shadow: -1px 0px 16px -1px rgba(7, 255, 131, 1);
+  box-shadow: -1px 0px 16px -1px rgba(7, 255, 131, 1);
+}
+
+.paper1:hover i,
+.rock1:hover i,
+.scissors1:hover i {
+  color: #07ff83 !important;
+}
+
+footer {
+  width: 100%;
+  height: 4rem;
+  background-color: #000 !important;
+  position: absolute;
+  bottom: 0;
+  float: left;
+  -webkit-box-shadow: 0px -3px 5px 0px rgba(220, 53, 69, 1);
+  -moz-box-shadow: 0px -3px 5px 0px rgba(220, 53, 69, 1);
+  box-shadow: 0px -3px 5px 0px rgba(220, 53, 69, 1);
+}
+
+.restart {
+  top: 6rem;
+  color: #fff;
+  right: 1rem;
+  border: 1px solid #fff;
+  padding: 6px 14px;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.move {
+  cursor: not-allowed;
+}
+
+.restart{
+  border: 1px solid #dc35465d;
+  color: #dc3545;
+  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.473);
+}
+.restart:focus{
+  outline: none;
+}
+
+.restart:hover{
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #dc3546a6;
+}
+
+
+.header_hand{
+  font-size: 2.9rem !important;
+  font-family: 'Bangers', cursive;
+}
+
