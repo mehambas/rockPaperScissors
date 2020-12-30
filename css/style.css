@@ -145,7 +145,7 @@ footer {
   font-family: 'Bangers', cursive;
 }
 
-@media (max-width:425px){
+@media (max-width:576px){
   h1{
     font-size: 1.6rem !important;
   }
