@@ -145,3 +145,26 @@ footer {
   font-family: 'Bangers', cursive;
 }
 
+@media (max-width:425px){
+  h1{
+    font-size: 1.6rem !important;
+  }
+
+  .header_hand{
+    font-size: 2rem !important;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .moves_outside{
+    width: 70%;
+    margin-top: 1rem;
+  }
+
+  .restart{
+    font-size: 0.8rem !important;
+    top: 45rem;
+    right: 11rem;
+  }
+}
